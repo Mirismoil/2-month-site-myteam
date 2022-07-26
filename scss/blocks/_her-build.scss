@@ -1,0 +1,205 @@
+.wrapper-her__build {
+  background: #012f34;
+}
+.hero-section__span1 {
+  margin-top: 140px;
+  margin-bottom: 54px;
+  display: inline-block;
+  height: 4px;
+  width: 50px;
+  background: #f67e7e;
+}
+.her-build {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-wrapper1 {
+  margin-bottom: 160px;
+  width: 500px;
+}
+.hero-wrapper1 > h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #ffffff;
+}
+.wrapper-build__text {
+  width: 445px;
+}
+.hero-section__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.hero-section__strong {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f67e7e;
+}
+.hero-section__title1:nth-child(1) {
+  position: relative;
+}
+.hero-section__title1:nth-child(1) ::before {
+  content: " ";
+  width: 72px;
+  height: 72px;
+  top: 17px;
+  left: -76px;
+  position: absolute;
+  background-image: url("../../images/befor1.svg");
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+.hero-section__title1:nth-child(2) {
+  position: relative;
+}
+.hero-section__title1:nth-child(2)::before {
+  content: " ";
+  width: 72px;
+  height: 72px;
+  top: 17px;
+  left: -76px;
+  position: absolute;
+  background-image: url("../../images/befor2.svg");
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+.hero-section__title1:nth-child(3) {
+  position: relative;
+}
+.hero-section__title1:nth-child(3)::before {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  content: " ";
+  background-size: 100%;
+  top: 17px;
+  left: -76px;
+  background-image: url("../../images/befor3.svg");
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+.wrapper-build__text > P {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+.container{
+  padding:100px 98px 100px 64px;
+}
+  .hero-wrapper {
+    margin-bottom: 24px;
+  }
+  .hero-section__text {
+    width: 457px;
+  }
+  .hero-section__text > p {
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .hero-section__text > span {
+    display: none;
+  }
+  .hero-wrapper1 {
+    margin-bottom: 1px;
+  }
+  .her-build {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .hero-wrapper1 > h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .hero-section__text > p {
+    line-height: 25px;
+  }
+  .wrapper-build__text {
+    width: 478px;
+  }
+  .hero-section__text2{
+    padding-left: 73px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .hero-wrapper {
+    width: 501px;
+  }
+  .hero-section__text {
+    width: 327px;
+  }
+  .container{
+    padding:100px 98px 100px 26px;
+  }
+    .hero-wrapper1{
+      width: 240px;
+      margin-bottom: 56px;
+    }
+    .hero-section__title1{
+      margin-bottom: 128px;
+      text-align: center;
+    }
+    .hero-section__title1:nth-child(1) {
+      position: relative;
+    }
+    .hero-section__text2{
+      padding-left: 34px;
+    }
+    .hero-section__title1:nth-child(1) ::before {
+      content: " ";
+      width: 72px;
+      height: 72px;
+      top: -80px;
+      left: 117px;
+      position: absolute;
+      background-image: url("../../images/befor1.svg");
+      background-repeat: no-repeat;
+      vertical-align: middle;
+    }
+    .hero-section__title1:nth-child(2) {
+      position: relative;
+    }
+    .hero-section__title1:nth-child(2)::before {
+      content: " ";
+      width: 72px;
+      height: 72px;
+      top: -80px;
+      left: 117px;
+      position: absolute;
+      background-image: url("../../images/befor2.svg");
+      background-repeat: no-repeat;
+      vertical-align: middle;
+    }
+    .hero-section__title1:nth-child(3) {
+      position: relative;
+    }
+    .hero-section__title1:nth-child(3)::before {
+      position: absolute;
+      width: 72px;
+      height: 72px;
+      content: " ";
+      background-size: 100%;
+      top: -80px;
+      left: 117px;
+      background-image: url("../../images/befor3.svg");
+      background-repeat: no-repeat;
+      vertical-align: middle;
+    }
+    .wrapper-build__text{
+      width: 327px;
+      text-align: center;
+    }
+}

@@ -1,0 +1,109 @@
+.deliv-section-top {
+  margin: 140px 254px 0 125px;
+  width: 932px;
+}
+.deliv-section-top > h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+.deliv-section__List {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.deliv-section__title {
+  background-image: url("../../images/backroundli.svg");
+  background-repeat: no-repeat;
+  background-size: 67px;
+  background-position: calc(50%) top;
+}
+.section-title__img {
+  margin-left: 144px;
+}
+.deliv-section-top > h2 > span {
+  color: #79c8c7;
+}
+.section-title__text {
+  width: 350px;
+}
+.section-title__text > P {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+.deliv-section__strong1 {
+  display: block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #79c8c7;
+  text-align: center;
+}
+.deliv-section__strong2 {
+  margin-bottom: 32px;
+  display: block;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1000px) {
+  .deliv-section-top {
+    width: 669px;
+    margin-left: 53px;
+  }
+  .hero-wrapper {
+    width: 501px;
+  }
+  .hero-section__text {
+    width: 216px;
+  }
+  .deliv-section__List {
+    margin-left: 160px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .deliv-section__title {
+    margin-bottom: 48px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .deliv-section-top {
+    margin-left: 8993px;
+    width: 327px;
+  }
+  .container {
+    padding: 0 24px;
+  }
+  .section-title__text {
+    width: 327px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+.box-ready>h2{
+  width: 336px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #012f34;
+}
+.ready-section {
+  background-color: #f67e7e;
+}
+
+
