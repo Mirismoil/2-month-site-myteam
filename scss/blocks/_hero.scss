@@ -34,40 +34,22 @@
   color: #ffffff;
 }
 
-@media only screen and (max-width: 1090px) {
-  .hero {
-    align-items: center;
-  }
-}
 
-@media only screen and (max-width: 1000px) {
-  .hero {
+@media only screen and (max-width:803px){
+  .hero{
     flex-direction: column;
+    justify-content: center;
     text-align: center;
   }
-
-  .hero-wrapper{
-    margin-bottom: 24px;
-  }
-  .hero-section__text {
-    width: 457px;
- }
-  .hero-section__text > p {
-    font-size: 15px;
-    line-height: 28px;
-  }
-  .hero-section__text > span {
-    display: none;
-  }
 }
 
-@media only screen and (max-width: 870px) {
+@media only screen and (max-width:635px){
   .hero-wrapper{
-   width: 501px;
+    width: 100%;
   }
   .hero-section__text{
-    width: 327px;
+    width: 100%;
   }
-  
 }
+
 
