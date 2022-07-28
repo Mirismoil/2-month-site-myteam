@@ -1,8 +1,17 @@
+.section-end {
+  padding-bottom: 145px;
+  background: url("../../images/article1.svg") left -26px / 100px 100px no-repeat,
+    url("../../images/oxirgidumalo.svg") right 630px / 200px 200px no-repeat  ;
+}
+
 .deliv-section-top {
-  margin: 0px 51px;
+  margin: 0 90px;
+  padding: 90px 4px;
   width: 932px;
 }
 .deliv-section-top > h2 {
+  margin: 0;
+  padding: 0;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -57,57 +66,53 @@
   text-align: center;
   color: #ffffff;
 }
-
-.box-ready>h2{
-  // width: 336px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 32px;
-  color: #012f34;
-}
-.ready-section {
-  padding: 48px 0px;
-  background-color: #f67e7e;
-}
-@media only screen and (max-width:1180px) {
-  .deliv-section, .deliv-section-top, .section-title__text{
+@media only screen and (max-width: 1180px) {
+  .deliv-section,
+  .deliv-section-top,
+  .section-title__text {
     width: 100%;
   }
-  .deliv-section-top{
+  .deliv-section-top {
     margin: 0;
   }
 }
-@media only screen and (max-width:940px){
-  .deliv-section{
+@media only screen and (max-width: 940px) {
+  .section-end{
+    background: url("../../images/article1.svg") left -26px / 100px 100px no-repeat;
+  }
+  .deliv-section {
     display: flex;
     flex-direction: column;
   }
-  .deliv-section__List{
-    flex-direction: column;
-
+  .deliv-section-top {
+    padding: 120px 4px;
+    width: 100%;
   }
-  .section-title__text{
+  .deliv-section__List {
+    flex-direction: column;
+  }
+  .section-title__text {
     width: 65%;
     margin: 0 auto;
     text-align: center;
   }
-  .section-title__img{
+  .section-title__img {
     display: block;
     margin: 0 auto;
   }
 }
-@media only screen and (max-width:585px){
-
-  .section-title__text{
+@media only screen and (max-width: 585px) {
+  .section-end{
+    background: url("../../images/article1.svg") left -26px / 100px 100px no-repeat,
+    url("../../images/oxirgidumalo.svg")  291px 1304px / 200px 200px no-repeat ;
+  }
+  .section-title__text {
     width: 100%;
     margin: 0 auto;
     text-align: center;
   }
-  .section-title__img{
+  .section-title__img {
     display: block;
     margin: 0 auto;
   }
 }
-
-
