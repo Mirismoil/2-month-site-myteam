@@ -583,6 +583,104 @@ img {
     background-size: 100% 400px;
   }
 }
+.about-section {
+  background-image: url("../../images/2page1.svg");
+  background-repeat: no-repeat;
+  background-position: 1249px 249px;
+}
+
+.abouthero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 120px;
+}
+
+.hero-wrapper {
+  width: 591px;
+}
+
+.hero-wrapper > h1 {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  color: #ffffff;
+}
+
+.hero-wrapper > h1 > span {
+  color: #f67e7e;
+}
+
+.hero-section__text {
+  width: 978px;
+}
+
+.hero-section__text > span {
+  margin-bottom: 30px;
+  display: inline-block;
+  height: 4px;
+  width: 50px;
+  background: #F67E7E;
+}
+
+.hero-section__text > p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 873px) {
+  .about-section {
+    background-image: none;
+  }
+  .abouthero {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hero-wrapper {
+    text-align: center;
+  }
+  .hero-section__text > span {
+    display: inline;
+  }
+  .hero-section__text {
+    width: 70%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 635px) {
+  .hero-wrapper {
+    width: 100%;
+  }
+  .abouthero {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hero-section__text {
+    width: 100%;
+  }
+  .hero-wrapper {
+    text-align: center;
+  }
+  .hero-section__list {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-section__text > span {
+    display: inline;
+  }
+}
+@media only screen and (max-width: 535px) {
+  .abouthero {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 .wrapper-her__build {
   background: #012f34;
   background-image: url("../../images/section3.svg");
@@ -764,6 +862,91 @@ img {
     left: 126px;
   }
 }
+.meet-section {
+  padding: 140px 0px;
+  background: #004047;
+}
+
+.box-meet > h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.box-meet__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.box-meet__title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 32px;
+  width: 350px;
+  height: 253px;
+  background: #012f34;
+  margin-right: 18px;
+  margin-bottom: 76px;
+}
+
+.meet-title__storng1 {
+  padding-top: 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79c8c7;
+}
+
+.meet-title__storng2 {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.meet-bottom__img {
+  padding-top: 8px;
+}
+
+.strong3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  text-align: center;
+  color: #79c8c7;
+}
+
+.wrapper-meet__text {
+  width: 245px;
+}
+
+.meet__text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.text-img__pic {
+  margin-left: 16px;
+}
+
 .section-end {
   padding-bottom: 145px;
   background: url("../../images/article1.svg") left -26px/100px 100px no-repeat, url("../../images/oxirgidumalo.svg") right 630px/200px 200px no-repeat;

@@ -1,0 +1,80 @@
+.meet-section{
+    padding: 140px 0px;
+    background: #004047;
+}
+
+.box-meet > h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+.box-meet__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.box-meet__title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 32px;
+  width: 350px;
+  height: 253px;
+  background: #012f34;
+  margin-right: 18px;
+  margin-bottom: 76px;
+}
+.meet-title__storng1 {
+  padding-top: 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79c8c7;
+}
+.meet-title__storng2 {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+.meet-bottom__img{
+    padding-top:    8px;
+}
+.strong3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  text-align: center;
+
+  color: #79c8c7;
+}
+.wrapper-meet__text{
+    width: 245px;
+}
+.meet__text{
+    font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.text-img__pic{
+    margin-left: 16px;
+}
+

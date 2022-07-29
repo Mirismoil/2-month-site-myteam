@@ -1,0 +1,101 @@
+  .about-section{
+    background-image: url("../../images/2page1.svg");
+    background-repeat: no-repeat;
+    background-position: 1249px 249px;
+}
+  .abouthero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 120px;
+  }
+  .hero-wrapper {
+    width: 591px;
+  }
+  .hero-wrapper > h1 {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: #ffffff;
+  }
+  .hero-wrapper > h1 > span {
+    color: #f67e7e;
+  }
+  .hero-section__text {
+    width: 978px;
+  }
+  .hero-section__text > span {
+    margin-bottom: 30px;
+    display: inline-block;
+    height: 4px;
+    width: 50px;
+    background: #F67E7E;
+  }
+  .hero-section__text > p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+  }
+  
+  
+  @media only screen and (max-width:873px){
+    .about-section{
+      background-image: none;
+    }
+    .abouthero{
+      flex-direction: column;
+      justify-content: center;
+    }
+    .hero-wrapper{
+        text-align: center;
+    }
+    .hero-section__text > span{
+      display: inline;
+    }
+    .hero-section__text{
+      width: 70%;
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width:635px){
+    .hero-wrapper{
+      width: 100%;
+    }
+    .abouthero{
+      flex-direction: column;
+      justify-content: center;
+
+    }
+    .hero-section__text{
+      width: 100%;
+    }
+    .hero-wrapper{
+      text-align: center;
+    }
+    .hero-section__list{
+      display: flex;
+      flex-direction: column;
+    }
+    .hero-section__text > span{
+      display: inline;
+    }
+  }
+  
+  // bu mediani backdround tepaga ciqani ucun qildm
+  @media only screen and (max-width:535px){
+    .abouthero{
+      flex-direction: column;
+      justify-content: center;
+
+    }
+    
+  }
+  
+  
+  
